@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * @version 1.0
  * @date 2020-1-16 16:41
  */
-@Service
+@Service("userService")
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userDao;
